@@ -31,7 +31,7 @@ public class BFSTraversal {
        while (que.size()!=0)
        {
            n=que.poll();
-           System.out.println(n+"");
+           System.out.print(n+" ");
            for (int i=0; i<adj[n].size();i++)
            {
                a=adj[n].get(i);
